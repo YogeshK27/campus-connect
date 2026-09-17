@@ -1,0 +1,20 @@
+# Standard ignores
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.production
+*.key
+*.pem
+.firebase/
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Explicitly ensure source is tracked (by not ignoring it)
+# src/ is NOT in this list anymore
